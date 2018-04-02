@@ -4,11 +4,11 @@ This simple class reads all your EKM meter data and makes it available for datab
 The configAPI() function takes an array argument as depicted below:
 
 ### Arguments ###
-* ***version*** - this is the meter version[currently they have v3 and v4]
-* ***api_key*** - the API Key provided by EKM
-* ***count*** - the amount of record you wish to pull between 1 and 1000
-* ***ts*** - this is the timezone eg: America~Jamaica
-* ***format*** - in this case it should be JSON, but they also facilitate HTML
+* ***version*** - this is the meter version[currently they have v3 and v4].
+* ***api_key*** - the API Key provided by EKM.
+* ***count*** - the amount of record you wish to pull between 1 and 1000.
+* ***ts*** - this is the timezone eg: America~Jamaica.
+* ***format*** - in this case it should be JSON, but they also facilitate HTML.
 
 ```php
 public function configAPI($args)
